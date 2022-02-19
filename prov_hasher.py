@@ -3,7 +3,7 @@ import hashlib
 o = open('list_of_individual_hashes.txt', 'w')
 p = open('provenance_hash.txt', 'w')
 provenance_hash = ''
-num_nfts = 3
+num_nfts = 10000
 for i in range(num_nfts):
     #NOTE: Don't forget to add location of your nft metadata fileson local machine below
     nft_metadata_name = "/location/of/your/NFTs/" + str(i) + ".json"
